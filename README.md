@@ -9,7 +9,7 @@ For the latest Melissa Phone Object release notes, please visit: https://release
 
 The console will ask the user for:
 
-- Phone Number
+- Phone
 
 And return 
 
@@ -20,15 +20,13 @@ And return
 - State
 - Latitude
 - Longitude
-- TimeZone
-- ResultCodes
+- Time Zone
+- Result Codes
 
 ## Tested Environments
-
-- Linux 64-bit g++ 9.4.0
-- Ubuntu 20.04.05 LTS
+- Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2023-06
+- Melissa data files for 2023-07
 
 ## Required File(s) and Programs
 
@@ -86,7 +84,7 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/PhoneObject-Cpp-Linux.git
+$ git clone https://github.com/MelissaData/PhoneObject-Cpp-Linux
 $ cd PhoneObject-Cpp-Linux
 ```
 
@@ -174,7 +172,6 @@ Troubleshooting for errors found while running your program.
 | ErrorDatabaseExpired   | .db file(s) are expired. Please make sure you are downloading and using the latest release version. (If using the Melissa Updater, check powershell script for '$RELEASE_VERSION = {version}'  and change the release version if you are using an out of date release).     |
 | ErrorFoundOldFile   | File(s) are out of date. Please make sure you are downloading and using the latest release version. (If using the Melissa Updater, check powershell script for '$RELEASE_VERSION = {version}'  and change the release version if you are using an out of date release).    |
 | ErrorLicenseExpired   | Expired license string. Please contact technical support below. |
-
 
 ## Contact Us
 For free technical support, please call us at 800-MELISSA ext. 4 (800-635-4772 ext. 4) or email us at tech@melissa.com.
