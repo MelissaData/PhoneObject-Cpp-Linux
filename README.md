@@ -28,7 +28,7 @@ And return
 ## Tested Environments
 - Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 
 ## Required File(s) and Programs
 
@@ -86,8 +86,8 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/PhoneObject-Cpp-Linux
-$ cd PhoneObject-Cpp-Linux
+git clone https://github.com/MelissaData/PhoneObject-Cpp-Linux
+cd PhoneObject-Cpp-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -141,25 +141,25 @@ Parameters:
 When you have modified the script to match your data location, let's run the script. There are two modes:
 - Interactive 
 
-	The script will prompt the user for a phone number, then use the provided number to test Phone Object. For example:
+  The script will prompt the user for a phone number, then use the provided number to test Phone Object. For example:
   ```
-  $ ./MelissaPhoneObjectLinuxCpp.sh
+  ./MelissaPhoneObjectLinuxCpp.sh
   ```
   For quiet mode:
   ```
-  $ ./MelissaPhoneObjectLinuxCpp.sh --quiet
+  ./MelissaPhoneObjectLinuxCpp.sh --quiet
   ```
 - Command Line 
 
-	You can pass a phone number in ```--phone``` parameter and a license string in ```--license``` parameter to test Phone Object. For example:
+  You can pass a phone number in ```--phone``` parameter and a license string in ```--license``` parameter to test Phone Object. For example:
   ```
-  $ ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" 
-  $ ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --license "<your_license_string>"
+  ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" 
+  ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --license "<your_license_string>"
   ```
-	For quiet mode:
+  For quiet mode:
   ```
-  $ ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --quiet
-  $ ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --license "<your_license_string>" --quiet
+  ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --quiet
+  ./MelissaPhoneObjectLinuxCpp.sh --phone "800-635-4772" --license "<your_license_string>" --quiet
   ```
 This is the expected output from a successful setup for interactive mode:
 
