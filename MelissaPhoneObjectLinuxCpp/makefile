@@ -3,7 +3,7 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -pedantic -std=c++11 -g
 LDLIBS = -lmdPhone
-LDFLAGS = -L/home/emaiiii/MdLinuxExamples/PhoneObject-Cpp-Linux/MelissaPhoneObjectLinuxCpp/Build
+LDFLAGS = -L/mnt/f/TEST/linux/PhoneObject-Cpp-Linux/MelissaPhoneObjectLinuxCpp/Build
 RM = rm -f
 
 OUT_DIR = Build
