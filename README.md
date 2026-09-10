@@ -5,7 +5,7 @@ This code showcases the Melissa Phone Object using C++.
 
 Please feel free to copy or embed this code to your own project. Happy coding!
 
-For the latest Melissa Phone Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/phone-object/
+To view the latest Melissa Phone Object release notes or to subscribe to product notifications, please visit: https://releasenotes.melissa.com/on-premise-api/phone-object/
 
 For further details, please visit: https://docs.melissa.com/on-premise-api/phone-object/phone-object-quickstart.html
 
